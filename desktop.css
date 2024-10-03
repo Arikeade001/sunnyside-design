@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow,sans-serif";
+    text-decoration: none;
+}
+nav{
+    background-color: #3EBFFF;
+    display: flex;
+    justify-content: space-between;
+    padding:2rem 3rem;
+}
+ul{
+    display: none;
+    list-style: none;
+    gap: 30px;
+}
+.menu i{
+    color: white;
+    font-size: 30px;
+}
+.firstSection{
+    background-image: url("images/desktop/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 12rem;
+}
+h1{
+    font-size: 2rem;
+    font-family: "fraunces", serif;
+    letter-spacing: 0.6rem;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+.header{
+    color: white;
+}
+.header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondSection{ 
+    display: grid;
+}
+.secondSection .eggs{
+    width: 100%;
+}
+.secondSection div{
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.secondSection h2{
+    font-family: "fraunces", serif;
+    color: rsl(212, 27%, 19%,);
+    font-weight: 900;
+}
+.secondSection p{
+    color: grey;
+    line-height: 24px;
+    padding: 1rem 0;
+}
+.thirdSection .cup{
+    width: 100%;
+}
+.thirdSection div{
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.thirdSection h3{
+    font-family: "fraunces", serif;
+    color: rsl(212, 27%, 19%,);
+    font-weight: 900;
+}
+.thirdSection p{
+    color: grey;
+    line-height: 24px;
+    padding: 1rem 0;
+    
+}
+.fourthSection{
+    display: grid;
+}
+
+.fourthSection div{
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.fourthSection h2{
+    font-family: "fraunces", sans-serif;
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+   
+}
+.fourthSection p{
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+    padding: 15px;
+}
+.fourthSection .parents{
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: end;
+    display: flex;
+}
+.fourthSection .fruit{
+    background-image: url("images/desktop/image-photography.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    justify-content: end;
+    color: hsl(167, 40%, 24%,)
+    
+}
+/* .fifthSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.client{
+    text-align: center;
+    margin-top: 100px;
+    color: grey;
+}
+.fifthSection {
+    background-color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center; 
+}
+
+.goes, .text, .giti {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+}
+.fifthSection img {
+    border-radius: 50%;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    justify-content: center;
+}    
+.goes p{
+    margin-top: 10px;
+
+}
+.quick{
+    color:black;
+}
+.text p{
+    margin-top: 10px;
+}
+.mk{
+    color: black;
+}
+.giti p{
+    margin-top: 10px;
+}
+.style{
+    color: black;
+}
+.sixthSection img{
+    width: 100%;
+    background-size: cover;
+}
+  .sixthSection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}  
+.seventhSection{
+    text-align: center;
+    background-color: aqua;
+    height: auto;
+}
+.wrapper2{
+    font-weight: 900;
+    font-size: 30px;
+    padding: 30px;
+}
+.wrapper3 ul{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.wrapper3 li a{
+    color: white;
+}
+.wrapper4{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+@media screen and (min-width:1000px){
+ul{
+    display: flex;
+    gap: 2rem;
+    font-size: 18px;
+    list-style: none;
+}
+ul a{
+    color: white;
+    list-style: none;
+}
+.btn{
+    background-color: white;
+    color:hsl(212,27%,19%);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-family:"fraunces" serif;
+    font-weight: 700;
+    transition: o.5s;
+}
+.btn:hover{
+    background-color: #3EBFFF;
+    color: white;
+}
+.menu{
+    display: none;
+}
+.firstsection{
+    height: 400px;
+}
+.secondSection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.secondSection div{
+    order: 1;
+    text-align: left;
+    padding: 6rem;
+    height: auto;
+}
+.secondSection .eggs{
+    order: 2;
+}
+.thirdSection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.thirdSection div{
+    order: 1;
+    /* text-align: left; */
+    padding: 6rem;
+    height: auto;
+}
+.fourthSection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.fourthSection div{
+    order: 2;
+    text-align: center;
+    padding: 6px;
+    height: auto;
+}
+.fifthSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.client{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.testimonial-container {
+    display: flex;
+    justify-content: space-between; /* Space between each testimonial */
+    justify-content: center; /* Align items to the center when wrapping */
+}
+.goes, .text, .giti {
+    text-align: center;
+    color: grey;
+}
+.testimonial-container img {
+    width: 50%; 
+    height: auto;
+    margin-bottom: 10px; 
+}
+.sixthSection {
+    grid-template-columns: repeat(4,1fr);
+}
+.seventhSectiont{
+    text-align: center;
+    
+}
+}
